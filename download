@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+app/build/
+gradle-wrapper.jar
+
+# Local configuration (SDK path, signing secrets - NEVER commit this)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystores / signing
+*.jks
+*.keystore
+
+# APKs / bundles generated locally
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
